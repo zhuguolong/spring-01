@@ -1,7 +1,6 @@
 package com.zhu.aop;
 
 import org.aspectj.lang.ProceedingJoinPoint;
-import org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint;
 
 /**
  * @author zhugu
