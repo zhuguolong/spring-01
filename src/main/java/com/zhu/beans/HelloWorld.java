@@ -8,6 +8,10 @@ package com.zhu.beans;
 public class HelloWorld {
     private String name;
 
+    public HelloWorld() {
+        System.out.println("HelloWorld初始化完成...");
+    }
+
     public String getName() {
         return name;
     }
