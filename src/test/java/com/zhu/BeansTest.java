@@ -15,7 +15,7 @@ public class BeansTest {
     public void createBeans() {
         ApplicationContext ctx = new ClassPathXmlApplicationContext("ApplicationContext.xml");
         HelloWorld helloWorld = (HelloWorld) ctx.getBean("helloWorld");
-        helloWorld.setName("单例模式下，spring创建容器完成时就将bean加入到容器中...");
+        helloWorld.setName("单例模式下spring容器立即加载bean...");
         helloWorld.hello();
     }
 }
